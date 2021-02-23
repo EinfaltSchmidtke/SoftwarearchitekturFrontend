@@ -1,0 +1,13 @@
+.FancyButton {
+    font-weight: bolder;
+    cursor: crosshair;
+    background-color: darkred;
+    border-radius: 0.5rem;
+    padding: 2rem 4rem;
+    font-size: larger;
+}
+
+.FancyButton:hover{
+    cursor: pointer;
+    filter: brightness(50%)
+}
