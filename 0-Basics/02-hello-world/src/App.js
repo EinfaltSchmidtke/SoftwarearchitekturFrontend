@@ -1,11 +1,9 @@
-import React, { Component } from 'react'
-
-import Form from './Form.js'
+import react, { Component } from 'react'
 
 class App extends Component {
     render() {
         return (
-            <Form/>
+            <div>Hello World</div>
         )
     }
 }
