@@ -1,0 +1,1 @@
+INSERT INTO T_SHOP (name, description) VALUES ('Kraftbierladen', 'Bestes Kraftbier aus dem Kraftbierladen');

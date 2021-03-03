@@ -11,15 +11,6 @@ class App extends Component {
     editMode: true 
   }
 
-  constructor(props) {
-    super(props)
-
-    /*
-    this.changeViewEditMode = this.changeViewEditMode.bind(this)
-    this.handleChange = this.handleChange.bind(this)
-    */
-  }
-
   changeViewEditMode = () => {
     this.setState({editMode: !this.state.editMode})
   }
@@ -33,7 +24,7 @@ class App extends Component {
   }
 
   render () {
-    if (this.state.editMode == false)
+    if (this.state.editMode === false)
     {
       return (
         <div>
