@@ -23,14 +23,17 @@ const App = () => {
         <Link to='/products'>Products</Link>
         <Link to='/about'>About</Link>
       </Nav>
+
       <Switch>
         <Route exact path='/' component={Home} />
         <Route path='/createproduct' component={CreateProduct}/>
-        <Route path='/products' component={ProductList} />
+        <Route exact path='/products' component={ProductList} />
         <Route path='/about' component={About} />
         <Route path='/products/:id' component={ProductCard} />
         <Route component={FOF} />
       </Switch>
+
+      <div>Footer</div>
     </div>
   );
 }
